@@ -5,7 +5,7 @@ let body = document.body;
 
 async function getBerriesName() {
     try {
-      // récupère les données et les mets dans data
+      // récupère les données et les met dans data
       const response = await fetch(url, options);
       const data = await response.json();
       
